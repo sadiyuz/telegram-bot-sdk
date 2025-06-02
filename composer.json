@@ -1,0 +1,30 @@
+{
+    "name": "sadiyuz/telegram-bot-sdk",
+    "description": "The unofficial Telegram Bot API SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "telegram",
+        "telegram bot",
+        "telegram bot api",
+        "telegram sdk",
+        "telegram php"
+    ],
+    "authors": [
+        {
+            "name": "Saidabror Tokhtasinov",
+            "email": "contact@saidabror.uz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Telegram\\Bot\\": "src/"
+        }
+    }
+}
